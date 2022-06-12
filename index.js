@@ -85,6 +85,18 @@ export const isWindow =  (value) => {
     return getType(value) === 'Window'
 }
 
+export const isHTMLDocument =  (value) => {
+    return getType(value) === 'HTMLDocument'
+}
+
+export const isHTMLCollection =  (value) => {
+    return getType(value) === 'HTMLCollection'
+}
+
+export const isNodeList =  (value) => {
+    return getType(value) === 'NodeList'
+}
+
 export const isNullOrUndefined = (value) => {
     return IsNull(value) || IsUndefined(value)
 }
