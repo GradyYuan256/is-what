@@ -1,5 +1,4 @@
-// import {isArray} from '../dist/bundle.esm.js';
-// console.log(isArray([]))
+const iwi =  require('../dist/bundle.umd.js');
 
-import '../dist/bundle.umd.js';
-console.log(iwi.isArray([]))
+console.log(iwi.isArray([]));
+console.log(iwi.isNumber(666));
