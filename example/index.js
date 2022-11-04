@@ -2,4 +2,4 @@
 // console.log(isArray([]))
 
 import '../dist/bundle.umd.js';
-console.log(runis.isArray([]))
+console.log(iwi.isArray([]))

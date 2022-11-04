@@ -14,13 +14,13 @@ export default {
         {
             file: 'dist/bundle.iife.js',
             format: 'iife',
-            name: 'isWhat',
+            name: 'iwi',
             plugins: [terser()]
         },
         {
             file: 'dist/bundle.umd.js',
             format: 'umd',
-            name: 'isWhat',
+            name: 'iwi',
             plugins: [terser()]
         }
     ]
